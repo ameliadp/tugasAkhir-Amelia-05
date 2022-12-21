@@ -1,0 +1,124 @@
+html,
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: fixed;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    background-color: #212529;
+}
+
+.container-fluid img{
+    float: right;
+}
+
+.section-title{
+    margin-top: 70px;
+    font-family: Georgia, serif;
+}
+
+.menu #menu-flters {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 12px 10px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
+  color: #F5D634;
+}
+
+.menu #menu-flters li:last-child {
+    margin-right: 0;
+}
+
+/* .menu .menu-item {
+    margin-top: 50px;
+} */
+
+.menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.hr{
+    border: 1px solid #000000;
+}
+
+/* .col{
+    padding-bottom: 10px;
+} */
+
+.tengah{
+    position: center;
+    margin-left: 20px;
+}
+
+.col.text-start input{
+    width: 60px;
+    height: 40px;
+}
+
+.symbol{
+    width: 5px;
+    height: 5px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #EEEEEE;
+    color: #000;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn-primary {
+
+    border: 2px solid #000;
+    border-radius: 15px;
+    position: absolute;
+    width: 129px;
+    height: 40px;
+    left: 1250px;
+    background-color: #DCBC86;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 17px;
+    text-align: center;
+
+    color: #fff;
+}
+.text{
+    color: #000;
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styledash.css">
+
+    <title>dashboard user</title>
+  </head>
+
+  <body>
+  <header id="header" class="container-fluid">
+    <div class="row header pt-2 pb-2">
+        <div class="col"></div>
+        <div class="col md-3 pl-4">
+            <img src="images/logo.png" alt="" width="200" height="50">
+        </div>
+    </div>
+</header>
+
+    <div class="row body"></div>
+    <div class="container-image">
+        <img src="images/background.jpeg" alt="background">
+        <div class="centered"><center>RESERVATIO</center></div>
+
+        <div class="box">
+            <div class="row body">
+                <div class="col text-center font-white">
+                    Posisi Meja
+                </div>
+                <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-1">
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox"/><br><center>1</center>
+                    </div>
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_1"/><br><center>2</center>
+                    </div>
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_2"/><br><center>3</center>
+                    </div>
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_3"/><br><center>4</center>
+                    </div>
+                </div>
+                <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-1">
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_4"/><br><center>8</center>
+                    </div>
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_5"/><br><center>7</center>
+                    </div>
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_6"/><br><center>6</center>
+                    </div>
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_7"/><br><center>5</center>
+                    </div>
+                </div>
+                <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-1">
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_8"/><br><center>9</center>
+                    </div>
+                    <div class="col-kasir">
+                        <img src="kasir.png">
+                    </div>
+                    <div class="col-img">
+                        <img src="https://i.postimg.cc/xjRzMVRP/meja2.jpg" id="checkbox_9"/><br><center>10</center>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="dataForm">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                        <div class="form-group">
+                            <input class="form" type="number" placeholder="Berapa orang :" name="data" >
+                        </div>
+                        <div class="form">
+                            <select id="select" class="form-select" >
+                                <option value="dine in">Dine in</option>
+                                <option value="take away">Take Away</option>
+                            </select>
+                        </div>
+                       <button type="submit" class="btn btn-primary"><a href="menu.html" class="text">Lanjut</a></button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+      
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+var checkbox = document.getElementById('checkbox');
+var img_1 = 'https://i.postimg.cc/xjRzMVRP/meja2.jpg';
+var img_2 = 'https://i.postimg.cc/wjtyCydW/meja1.jpg';
+checkbox.onclick = function () {
+  if (checkbox.src == img_1) {
+    checkbox.src = img_2;
+  } else if (checkbox.src == img_2) {
+    checkbox.src = img_1;
+  }
+}
+
+checkbox_1.onclick = function () {
+  if (checkbox_1.src == img_1) {
+    checkbox_1.src = img_2;
+  } else if (checkbox_1.src == img_2) {
+    checkbox_1.src = img_1;
+  }
+}
+
+checkbox_2.onclick = function () {
+  if (checkbox_2.src == img_1) {
+    checkbox_2.src = img_2;
+  } else if (checkbox_2.src == img_2) {
+    checkbox_2.src = img_1;
+  }
+}
+
+checkbox_3.onclick = function () {
+  if (checkbox_3.src == img_1) {
+    checkbox_3.src = img_2;
+  } else if (checkbox_3.src == img_2) {
+    checkbox_3.src = img_1;
+  }
+}
+
+checkbox_4.onclick = function () {
+  if (checkbox_4.src == img_1) {
+    checkbox_4.src = img_2;
+  } else if (checkbox_4.src == img_2) {
+    checkbox_4.src = img_1;
+  }
+}
+
+checkbox_5.onclick = function () {
+  if (checkbox_5.src == img_1) {
+    checkbox_5.src = img_2;
+  } else if (checkbox_5.src == img_2) {
+    checkbox_5.src = img_1;
+  }
+}
+
+checkbox_6.onclick = function () {
+  if (checkbox_6.src == img_1) {
+    checkbox_6.src = img_2;
+  } else if (checkbox_6.src == img_2) {
+    checkbox_6.src = img_1;
+  }
+}
+
+checkbox_7.onclick = function () {
+  if (checkbox_7.src == img_1) {
+    checkbox_7.src = img_2;
+  } else if (checkbox_7.src == img_2) {
+    checkbox_7.src = img_1;
+  }
+}
+
+checkbox_8.onclick = function () {
+  if (checkbox_8.src == img_1) {
+    checkbox_8.src = img_2;
+  } else if (checkbox_8.src == img_2) {
+    checkbox_8.src = img_1;
+  }
+}
+
+checkbox_9.onclick = function () {
+  if (checkbox_9.src == img_1) {
+    checkbox_9.src = img_2;
+  } else if (checkbox_9.src == img_2) {
+    checkbox_9.src = img_1;
+  }
+}
+</script>
+  </body>
+</html>

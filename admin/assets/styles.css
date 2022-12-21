@@ -1,0 +1,27 @@
+body,
+html {
+    height: 100%;
+}
+
+.header {
+    background-color: #212529;
+    color: #fff
+}
+
+.body {
+    background: url('img/background.jpeg');
+    /* Full height */
+    height: 610px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.font-white {
+    color: #fff !important;
+}
+
+.cursor-pointer{
+    cursor: pointer!important;
+}

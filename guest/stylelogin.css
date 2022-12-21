@@ -1,0 +1,73 @@
+html,
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container .navbar-brand {
+    display: flex;
+    margin-left: 1190px;
+}
+
+.navbar{
+    background-color: #212529;
+}
+
+body {
+    background: #484848;
+} 
+
+.global-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+	color: #ffffff;
+}
+
+.card.body {
+	margin-bottom: 20px;
+	background-color: #484848;
+}
+
+.login-form {
+	width: 380px;
+	height: 450px;
+	padding: 20px;
+	background-color: #484848 !important;
+	border-radius: 10px;
+	padding-top: 40px;
+}
+
+input[type="email"],
+input[type="password"]{
+	background-color: #FFFEEA;
+	color: black;
+	border: 2px solid #000000;
+	margin-bottom: 20px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+	outline: none;
+	border: none;
+	background: #FFFEEA;
+	margin: 0;
+}
+
+.card-title{
+	font-weight: 500;
+}
+
+.btn.btn-primary{
+	background-color: #F5D634;
+	align-content: center;
+	/* position: absolute; */
+	/* margin-left: 130px; */
+	/* margin-top: 40px;  */
+	align-items: center;
+	border: 10px;
+	width: 30%;
+}

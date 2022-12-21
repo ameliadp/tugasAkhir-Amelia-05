@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container .navbar-brand {
+    display: flex;
+    margin-left: 1200px;
+}
+.navbar{
+    background-color: #212529;
+}
+body {
+    background: #484848;
+}
+
+.card {
+    border: none;
+    height: 320px;
+    background-color: #fff98e;
+}
+
+.forms-inputs {
+    position: relative;
+}
+
+.forms-inputs span {
+    position: absolute;
+    top: -18px;
+    left: 10px;
+    background-color: #fff98e;
+    padding: 5px 10px;
+    font-size: 15px
+}
+
+.forms-inputs input {
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 540px;
+    border-radius: 10px;
+    background-color: #fff98e;
+}
+
+.forms-inputs input:focus {
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #000
+}
+
+.btn {
+    height: 50px
+}
+
+.success-data {
+    display: flex;
+    flex-direction: column
+}
+
+.bxs-badge-check {
+    font-size: 90px
+}
+
+.form-data .forms-inputs {
+    max-width: 1000px;
+}
